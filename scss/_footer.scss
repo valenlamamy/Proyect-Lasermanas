@@ -1,0 +1,40 @@
+footer{
+    background-color: $black;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    ul{
+        list-style: none;
+        padding-left: 0%;
+    }
+        li a{
+            text-decoration: none;
+        }
+    a{
+        text-decoration: none;
+        &:not(.logos-no):hover{
+            text-decoration: underline;
+        }
+    }
+    p,
+    ul li a, a{
+        color: $white;
+        font-weight: $textLight;
+        font-size: $textLg;
+        line-height: 2.4rem;
+    }
+    svg{
+        fill: $mainColor;
+    }
+}      
+.li{
+    display: flex;
+    flex-direction: row;
+    .svgli{
+        margin-right: 10px;  
+    }
+}
+.wpp{
+    margin-bottom: 10px;
+}

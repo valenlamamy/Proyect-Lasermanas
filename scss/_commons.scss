@@ -1,0 +1,40 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    /* reset */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+h1,
+h2,
+form label,
+p,a{
+    color: $keyColor;
+}
+a{
+    text-decoration: none;
+    font-weight: $textLight;
+}
+p{
+    font-weight: $textLight;
+    font-size: $textXL;
+    line-height: 2.6rem;
+    margin-bottom: 10px;
+}
+h1, h2{
+    font-weight: $textRegular;
+}
+h1{
+    font-size: $textXXXL;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: $textXXL;
+    margin-bottom: 10px;
+}
+button:hover{
+    cursor: pointer;
+}

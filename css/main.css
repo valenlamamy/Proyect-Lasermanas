@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  /* reset */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1,
+h2,
+form label,
+p, a {
+  color: rgba(15, 15, 15, 0.884);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 300;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1, 8rem;
+  line-height: 2.6rem;
+  margin-bottom: 10px;
+}
+
+h1, h2 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.filters {
+  padding: 0 20px 30px 30px;
+}
+.filters a {
+  color: rgba(15, 15, 15, 0.884);
+  text-decoration: none;
+  font-size: 1, 4rem;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+}
+.filters a:hover {
+  color: rgb(223, 27, 76);
+}
+.filters span {
+  display: block;
+  color: rgba(15, 15, 15, 0.884);
+  font-size: 1, 8rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 20px 0;
+}
+.filters select {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.952);
+  color: rgba(15, 15, 15, 0.884);
+  font-size: 1, 8rem;
+  letter-spacing: 1px;
+  padding: 10px 10px 10px 0px;
+  margin-bottom: 10px;
+}
+.filters li {
+  list-style: none;
+}
+
+.tienda {
+  display: grid;
+  grid-template-columns: 20% repeat(4, 1fr);
+  grid-template-rows: 80px repeat(4, 300px);
+  gap: 5px;
+}
+.tienda .title {
+  grid-row: 1/2;
+  grid-column: 1/6;
+}
+.tienda .filters {
+  grid-column: 1/2;
+  grid-row: 2/6;
+}
+.tienda .prod1 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.tienda .prod2 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.tienda .prod3 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+.tienda .prod4 {
+  grid-column: 5/6;
+  grid-row: 2/3;
+}
+.tienda .prod5 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.tienda .prod6 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+.tienda .prod7 {
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+.tienda .prod8 {
+  grid-column: 5/6;
+  grid-row: 3/4;
+}
+.tienda .prod9 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+.tienda .prod10 {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+.tienda .prod11 {
+  grid-column: 4/5;
+  grid-row: 4/5;
+}
+.tienda .prod12 {
+  grid-column: 5/6;
+  grid-row: 4/5;
+}
+.tienda .prod13 {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+.tienda .prod14 {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+.tienda .prod15 {
+  grid-column: 4/5;
+  grid-row: 5/6;
+}
+
+footer {
+  background-color: black;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer ul {
+  list-style: none;
+  padding-left: 0%;
+}
+footer li a {
+  text-decoration: none;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:not(.logos-no):hover {
+  text-decoration: underline;
+}
+footer p,
+footer ul li a, footer a {
+  color: rgba(255, 255, 255, 0.952);
+  font-weight: 300;
+  font-size: 1, 6rem;
+  line-height: 2.4rem;
+}
+footer svg {
+  fill: rgb(223, 27, 76);
+}
+
+.li {
+  display: flex;
+  flex-direction: row;
+}
+.li .svgli {
+  margin-right: 10px;
+}
+
+.wpp {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */

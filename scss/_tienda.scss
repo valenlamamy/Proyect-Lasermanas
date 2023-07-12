@@ -1,0 +1,107 @@
+.filters{
+    padding: 0 20px 30px 30px;
+    a{
+        color: $keyColor;
+        text-decoration: none;
+        font-size: $textMd;
+        font-weight: $textLight;
+        letter-spacing: 0.6px;
+        &:hover{
+            color: $mainColor;
+        }
+    }
+    span{
+        display: block;
+        color: $keyColor;
+        font-size: $textXL;
+        font-weight: $textRegular;
+        letter-spacing: 1px;
+        margin: 20px 0;
+    }
+    select{
+        border: none;
+        background-color: $white;
+        color: $keyColor;
+        font-size: $textXL;
+        letter-spacing: 1px;
+        padding: 10px 10px 10px 0px;
+        margin-bottom: 10px;
+    }
+    li{
+        list-style: none;
+    }
+} 
+.tienda{
+    display: grid;
+    grid-template-columns: 20% repeat(4,1fr);
+    grid-template-rows: 80px repeat(4,300px);
+    gap: 5px;
+    .title{
+        grid-row: 1/2;
+        grid-column: 1/6;
+    }
+    .filters{
+        grid-column: 1/2;
+        grid-row: 2/6;
+    }
+    .prod1{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .prod2{
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .prod3{
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+    .prod4{
+        grid-column: 5/6;
+        grid-row: 2/3;
+    }
+    .prod5{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .prod6{
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    .prod7{
+        grid-column: 4/5;
+        grid-row: 3/4;
+    }
+    .prod8{
+        grid-column: 5/6;
+        grid-row: 3/4;
+    }
+    .prod9{
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+    .prod10{
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+    .prod11{
+        grid-column: 4/5;
+        grid-row: 4/5;
+    }
+    .prod12{
+        grid-column: 5/6;
+        grid-row: 4/5;
+    }
+    .prod13{
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+    .prod14{
+        grid-column: 3/4;
+        grid-row: 5/6;
+    }
+    .prod15{
+        grid-column: 4/5;
+        grid-row: 5/6;
+    }
+}
