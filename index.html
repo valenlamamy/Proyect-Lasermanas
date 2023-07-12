@@ -13,9 +13,53 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  <header>
+  <header class="sticky-top">
     <!-- starts nav -->
-    <nav class="navbar navbar-expand-lg botonera sticky-top px-4 pt-2">
+    <nav class="navbar navbar-expand-lg botonera px-4 pt-2">
+      <div class="container-fluid">
+        <a class="navbar-brand col-lg-2" href="./index.html">
+          <img src="./images/logo-lasermanas.png" alt="logo de lasermanas">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-lg-6 ms-5">
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/quienesomos.html">Quiénes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-2" href="./pages/tienda.html">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-2" href="./pages/preguntasfrecuentes.html">Preguntas Frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-2" href="./pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <a class="nav-link col-lg-1.5" href="./pages/crear-cuenta.html"><p class="p1 crear-cuenta">CREAR CUENTA</p></a>
+          <a class="nav-link p1 col-lg-1.5" href="./pages/iniciar-sesion.html"><p class="p1">INICIAR SESIÓN</p></a>
+        </div>
+        <a class="nav-link col-lg-1 ms-4" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus-fill carrito col-lg-1" viewBox="0 0 16 16">
+            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+          </svg>
+        </a>
+      </div>
+    </nav>
+    <form class="d-flex botonera pb-2" role="search">
+      <input class="form-control me-2 input" type="search" placeholder="Buscar" aria-label="Search">
+      <button class="btn btn-outline-success btn-nav" type="submit">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search svg2" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg>
+      </button>
+    </form>
+  </header> 
+
+
+    <nav class="navbar navbar-expand-lg botonera px-4 pt-2">
       <div class="container-fluid d-flex flex-column">
         <div class="d-flex row flex-nowrap align-items-center w-100">
           <a class="navbar-brand col-lg-3" href="#">
@@ -59,27 +103,30 @@
       </div>
     </nav>
     <!-- ends nav -->
-    <div class="header-div">
+    <!-- <div class="header-div">
       <img src="./images/thumbnail_IMG_6523.jpg" alt="Productos en fibrofácil" class="div-img">
       <p class="div-p">Un universo de productos en fibrofácil para darle vida a tu imaginación. Divertite, creá, soñá.</p>
-    </div>
-  </header>    
+    </div>     -->
     <!-- ends header -->
   <main class="container-fluid text-center">
-      <h1 class="text-center">Productos destacados</h1>
-      <!-- inicia sistema de grillas de BS -->
-      <section class="row mx-4 mb-2 figures">
-        <figure class="col-sm-12 col-md-4 col-lg-4 text-center">
-          <div class="card">
-            <img src="./images/productos/avion.jpg" class="card-img-top w-100" alt="aviones">
-            <div class="card-body">
-              <figcaption class="card-title">AVIONES</figcaption>
-              <p class="card-text">$480</p>
-              <a href="#" class="btn bg-pink">+ Agregar al carrito</a>
-            </div>
+    <section class="main-div">
+      <img src="./images/thumbnail_IMG_6523.jpg" alt="Productos en fibrofácil" class="div-img">
+      <p class="div-p">Un universo de productos en fibrofácil para darle vida a tu imaginación. Divertite, creá, soñá.</p>
+    </section> 
+    <h1 class="text-center">Productos destacados</h1>
+    <!-- inicia sistema de grillas de BS -->
+    <section class="row mx-4 mb-2 figures">
+      <figure class="col-sm-12 col-md-4 col-lg-4 text-center">
+        <div class="card">
+          <img src="./images/productos/avion.jpg" class="card-img-top w-100" alt="aviones">
+          <div class="card-body">
+            <figcaption class="card-title">AVIONES</figcaption>
+            <p class="card-text">$480</p>
+            <a href="#" class="btn bg-pink">+ Agregar al carrito</a>
           </div>
-        </figure>
-        <!-- ends card 1 -->
+        </div>
+      </figure>
+      <!-- ends card 1 -->
         <figure class="col-sm-12 col-md-4 col-lg-4 text-center">
           <div class="card">
             <img src="./images/productos/portacelulares.jpg" class="card-img-top w-100" alt="portacelulares">

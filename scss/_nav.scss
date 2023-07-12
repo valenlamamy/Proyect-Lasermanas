@@ -1,0 +1,62 @@
+nav{
+    padding: 10px 30px;
+    background-color: $white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    .carrito{
+        fill: $mainColor;
+        width: 4rem;
+        height: 4rem;
+        padding-bottom: 10px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        li a{
+            text-decoration: none;
+            color: $black;
+            font-weight: $textLight;
+            font-size: $textLg;
+            &:hover{
+                color: $mainColor;
+            }
+        }
+    }
+    a p:hover{
+        text-decoration: underline;
+    }
+}  
+.input{
+    font-size: $textMd;
+    font-weight: $textLight;
+    width:40%;
+}
+.crear-cuenta{
+    border-right: solid 1px;
+    padding-right: 6px;
+    margin-right: 6px;
+}
+.botonera{
+    background-color: $white;
+    a{
+        color: $keyColor;
+        font-weight: $textLight;
+        font-size: 1.6rem;
+        &:hover{
+            color: $mainColor;
+        }
+    }
+}
+.btn-nav{
+    border: none;
+    background-color: $mainColor;
+    padding: 4px;
+    &:hover{
+        background-color: $secondaryColor;
+    }
+}
