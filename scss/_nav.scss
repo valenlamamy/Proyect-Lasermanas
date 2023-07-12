@@ -34,7 +34,7 @@ nav{
 .input{
     font-size: $textMd;
     font-weight: $textLight;
-    width:40%;
+    width:50%;
 }
 .crear-cuenta{
     border-right: solid 1px;
@@ -46,7 +46,7 @@ nav{
     a{
         color: $keyColor;
         font-weight: $textLight;
-        font-size: 1.6rem;
+        font-size: $textLg;
         &:hover{
             color: $mainColor;
         }
@@ -58,5 +58,11 @@ nav{
     padding: 4px;
     &:hover{
         background-color: $secondaryColor;
+    }
+}
+.navbar-toggler{
+    border: none;
+    &:focus{
+        box-shadow: none;
     }
 }

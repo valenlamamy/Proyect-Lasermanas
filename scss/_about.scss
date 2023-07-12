@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    .about-text{
+        background-color: rgb(241, 237, 223);
+        padding: 20px;
+    }
     .about-div1{
         display: flex;
        justify-content: space-evenly;
@@ -29,6 +33,7 @@
         width: 20%;
         grid-column: 1/2;
         grid-row: 2/3;
+        font-size: $textSm;
     }
     .about-img{
         grid-column: 2/3;
