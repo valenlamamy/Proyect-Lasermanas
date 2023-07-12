@@ -11,6 +11,11 @@ html {
   font-size: 62.5%;
 }
 
+main {
+  padding: 20px 40px;
+  background-color: rgba(255, 255, 255, 0.952);
+}
+
 h1,
 h2,
 form label,
@@ -23,9 +28,16 @@ a {
   font-weight: 300;
 }
 
+form label {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+  display: block;
+}
+
 p {
   font-weight: 300;
-  font-size: 1, 8rem;
+  font-size: 1.8rem;
   line-height: 2.6rem;
   margin-bottom: 10px;
 }
@@ -48,13 +60,200 @@ button:hover {
   cursor: pointer;
 }
 
+.fs18 {
+  font-size: 1.8rem;
+}
+
+.fw500 {
+  font-weight: 500;
+}
+
+.fs2 {
+  font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb24 {
+  margin-bottom: 24px;
+}
+
+.svg2 {
+  fill: rgba(255, 255, 255, 0.952);
+  width: 1.8em;
+  height: 1.8em;
+  padding-bottom: 2px;
+}
+
+.h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.p {
+  font-size: 1.6rem;
+}
+
+.p1 {
+  font-size: 1.2rem;
+}
+
+.header-div {
+  text-align: center;
+}
+
+header .div-img {
+  width: 100%;
+}
+
+header .div-p {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+  background-color: rgb(241, 237, 223);
+}
+
+.row figure figcaption {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.row figure p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.bg-pink {
+  background-color: rgb(223, 27, 76);
+  color: rgba(255, 255, 255, 0.952);
+  font-weight: 400;
+  width: 50%;
+  font-size: 1.2rem;
+  border-radius: 0;
+}
+
+.ver-mas {
+  width: 10%;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: rgb(219, 60, 100);
+  color: rgba(255, 255, 255, 0.952);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: auto;
+  height: auto;
+  margin: 10px auto;
+}
+.main .div {
+  display: grid;
+  grid-template-columns: 20% 300px;
+  grid-template-rows: 40px 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 40px;
+  text-align: left;
+}
+.main .div .main-svg {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  width: 4rem;
+  height: 4rem;
+  margin-right: 30px;
+  margin-top: 12px;
+}
+.main .div .main-h2 {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  margin-top: 10px;
+}
+.main .div .main-p {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.border-div {
+  border-right: solid;
+  border-width: 1px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about .about-div1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px 100px 30px 100px;
+}
+.about .about-p1 {
+  margin-left: 18%;
+}
+
+.about-div2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 10%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.about-div2 .about-p2 {
+  margin-right: 10%;
+  margin-left: 10%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.about-div2 .about-vertienda {
+  margin-left: 40%;
+  width: 20%;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.about-div2 .about-img {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  margin-left: 18%;
+}
+
+.about-vertienda {
+  border: none;
+  background-color: rgb(223, 27, 76);
+  color: rgba(255, 255, 255, 0.952);
+  padding: 6px 20px;
+  font-weight: 400;
+  text-align: center;
+  width: 40%;
+  margin-top: 10px;
+}
+.about-vertienda:hover {
+  background-color: rgb(219, 60, 100);
+}
+
 .filters {
   padding: 0 20px 30px 30px;
 }
 .filters a {
   color: rgba(15, 15, 15, 0.884);
   text-decoration: none;
-  font-size: 1, 4rem;
+  font-size: 1.4rem;
   font-weight: 300;
   letter-spacing: 0.6px;
 }
@@ -64,7 +263,7 @@ button:hover {
 .filters span {
   display: block;
   color: rgba(15, 15, 15, 0.884);
-  font-size: 1, 8rem;
+  font-size: 1.8rem;
   font-weight: 400;
   letter-spacing: 1px;
   margin: 20px 0;
@@ -73,7 +272,7 @@ button:hover {
   border: none;
   background-color: rgba(255, 255, 255, 0.952);
   color: rgba(15, 15, 15, 0.884);
-  font-size: 1, 8rem;
+  font-size: 1.8rem;
   letter-spacing: 1px;
   padding: 10px 10px 10px 0px;
   margin-bottom: 10px;
@@ -157,6 +356,174 @@ button:hover {
   grid-row: 5/6;
 }
 
+.label {
+  color: rgb(223, 27, 76);
+  font-size: 1.4rem;
+  font-weight: 300;
+  padding-top: 10px;
+  margin-left: 8px;
+}
+
+.prodtienda {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.prodfigc {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.prodp {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.prodbut {
+  border: none;
+  padding: 6px 10px;
+  font-weight: 400;
+  background-color: rgb(223, 27, 76);
+  color: rgba(255, 255, 255, 0.952);
+  width: 100%;
+}
+
+/* pages de filters con GRID */
+.tienda1 {
+  display: grid;
+  grid-template-columns: 20% repeat(4, 1fr);
+  grid-template-rows: 80px repeat(2, 300px);
+  gap: 5px;
+}
+.tienda1 .title {
+  grid-row: 1/2;
+  grid-column: 1/6;
+}
+.tienda1 .filters {
+  grid-row: 2/4;
+  grid-column: 1/2;
+}
+.tienda1 .prod1 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+.tienda1 .prod2 {
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+.tienda1 .prod3 {
+  grid-row: 2/3;
+  grid-column: 4/5;
+}
+.tienda1 .prod4 {
+  grid-row: 2/3;
+  grid-column: 5/6;
+}
+.tienda1 .prod5 {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+
+.d {
+  margin-bottom: 10px;
+}
+
+.pregs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 20% repeat(2, 150px) 100px;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.pregs .title {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+.pregs .preg1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.pregs .preg2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.pregs .preg3 {
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+.pregs .preg4 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.pregs .preg5 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.pregs .preg6 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.pregs .preg7 {
+  grid-column: 2/4;
+  grid-row: 4/5;
+}
+
+.backgpink {
+  background-color: rgb(223, 27, 76);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px 100px 10px;
+}
+
+.pregsp {
+  color: rgba(255, 255, 255, 0.952);
+}
+
+.main-pregsfrecuentes div a[href="https://api.whatsapp.com/send/?phone=5491122916888"] {
+  color: rgba(255, 255, 255, 0.952);
+}
+.main-pregsfrecuentes div a[href="https://api.whatsapp.com/send/?phone=5491122916888"]:hover {
+  color: rgba(15, 15, 15, 0.884);
+}
+
+.contacto {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contacto div a {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.contacto .div1 {
+  text-align: center;
+}
+.contacto .input {
+  border: none;
+  padding: 6px 20px;
+  font-weight: 400;
+  background-color: rgb(223, 27, 76);
+  color: rgba(255, 255, 255, 0.952);
+  text-align: center;
+  width: 40%;
+  margin-top: 10px;
+}
+.contacto h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.contacto label {
+  text-align: left;
+  font-size: 1.6rem;
+}
+
 footer {
   background-color: black;
   padding: 20px 40px;
@@ -168,7 +535,7 @@ footer ul {
   list-style: none;
   padding-left: 0%;
 }
-footer li a {
+footer ul li a {
   text-decoration: none;
 }
 footer a {
@@ -181,7 +548,7 @@ footer p,
 footer ul li a, footer a {
   color: rgba(255, 255, 255, 0.952);
   font-weight: 300;
-  font-size: 1, 6rem;
+  font-size: 1.6rem;
   line-height: 2.4rem;
 }
 footer svg {
@@ -198,6 +565,17 @@ footer svg {
 
 .wpp {
   margin-bottom: 10px;
+}
+
+.svg {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.svg1 {
+  width: 2rem;
+  height: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */

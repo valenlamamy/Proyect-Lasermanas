@@ -7,10 +7,10 @@ footer{
     ul{
         list-style: none;
         padding-left: 0%;
-    }
         li a{
             text-decoration: none;
         }
+    }
     a{
         text-decoration: none;
         &:not(.logos-no):hover{
@@ -37,4 +37,13 @@ footer{
 }
 .wpp{
     margin-bottom: 10px;
+}
+.svg{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+.svg1{
+    width: 2rem;
+    height: 2rem;
 }

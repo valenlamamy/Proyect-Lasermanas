@@ -1,5 +1,6 @@
 /* vinculo la google font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 *{
     font-family: 'Roboto', sans-serif;
     /* reset */
@@ -9,7 +10,7 @@
 }
 html{
     font-size: 62.5%;
-}
+} 
 /* Nav */
 nav{
     padding: 10px 30px;

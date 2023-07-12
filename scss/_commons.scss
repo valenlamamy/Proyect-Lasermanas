@@ -8,6 +8,10 @@
 html{
     font-size: 62.5%;
 }
+main{
+    padding: 20px 40px;
+    background-color: $white;
+}
 h1,
 h2,
 form label,
@@ -17,6 +21,12 @@ p,a{
 a{
     text-decoration: none;
     font-weight: $textLight;
+}
+form label{
+    font-size: $textXL;
+    font-weight: $textLight;
+    margin-bottom: 10px;
+    display: block;
 }
 p{
     font-weight: $textLight;
@@ -37,4 +47,39 @@ h2{
 }
 button:hover{
     cursor: pointer;
+}
+// selectores de clase
+.fs18{
+    font-size: $textXL;
+}
+.fw500{
+    font-weight: $textBold;
+}
+.fs2{
+    font-size: $textXXL;
+}
+.text-center{
+    text-align: center;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mb24{
+    margin-bottom: 24px;
+}
+.svg2{
+    fill: $white;
+    width: 1.8em;
+    height: 1.8em;
+    padding-bottom: 2px;
+}
+.h2{
+    font-size: $textLg;
+    font-weight: $textBold;
+}
+.p{
+    font-size: $textLg;
+}
+.p1{
+    font-size: $textSm;
 }

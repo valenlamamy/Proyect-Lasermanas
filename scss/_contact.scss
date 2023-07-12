@@ -1,0 +1,32 @@
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    div a{
+        font-weight: $textLight;
+        font-size: $textLg;
+        line-height: 2.4rem;
+    }
+    .div1{
+        text-align: center;
+    }
+    .input{
+        border: none;
+        padding: 6px 20px;
+        font-weight: $textRegular;
+        background-color: $mainColor;
+        color: $white;
+        text-align: center;
+        width: 40%;
+        margin-top: 10px;
+    }
+    h2{
+        font-size: $textXXL;
+        font-weight: $textLight;
+        margin-bottom: 20px;
+    }
+    label{
+        text-align: left;
+        font-size: $textLg;
+    }
+}
