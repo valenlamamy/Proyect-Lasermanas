@@ -60,6 +60,12 @@ button:hover {
   cursor: pointer;
 }
 
+ul li .item-selected {
+  border-top: 1px solid rgb(223, 27, 76);
+  border-bottom: 1px solid rgb(223, 27, 76);
+  color: rgb(223, 27, 76);
+}
+
 .fs18 {
   font-size: 1.8rem;
 }
@@ -132,7 +138,8 @@ main .div-img {
   margin-bottom: 20px;
 }
 
-.bg-pink, .ver-mas {
+.bg-pink, .crear-cuenta button,
+.iniciar-sesion button, .ver-mas {
   background-color: rgb(223, 27, 76);
   color: rgba(255, 255, 255, 0.952);
   font-weight: 400;
@@ -147,7 +154,7 @@ main .div-img {
 }
 
 .btn:hover {
-  background-color: rgb(219, 60, 100);
+  background-color: rgb(219, 81, 115);
   color: rgba(255, 255, 255, 0.952);
 }
 
@@ -223,9 +230,6 @@ nav ul li a {
   font-weight: 300;
   font-size: 1.6rem;
 }
-nav ul li a:hover {
-  color: rgb(223, 27, 76);
-}
 nav a p:hover {
   text-decoration: underline;
 }
@@ -260,7 +264,7 @@ nav a p:hover {
   padding: 4px;
 }
 .btn-nav:hover {
-  background-color: rgb(219, 60, 100);
+  background-color: rgb(219, 81, 115);
 }
 
 .navbar-toggler {
@@ -327,7 +331,7 @@ nav a p:hover {
   margin-top: 10px;
 }
 .about-vertienda:hover {
-  background-color: rgb(219, 60, 100);
+  background-color: rgb(219, 81, 115);
 }
 
 .filters {
@@ -481,7 +485,7 @@ nav a p:hover {
   font-size: 1.2rem;
 }
 .prodbut:hover {
-  background-color: rgb(219, 60, 100);
+  background-color: rgb(219, 81, 115);
 }
 
 /* pages de filters con GRID */
@@ -618,6 +622,54 @@ nav a p:hover {
 .contacto ul {
   padding-left: 0;
 }
+.crear-cuenta,
+.iniciar-sesion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.crear-cuenta label,
+.iniciar-sesion label {
+  text-align: left;
+  width: 40vw;
+}
+.crear-cuenta button,
+.iniciar-sesion button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 16vw;
+}
+.crear-cuenta .crear-cuenta-p,
+.crear-cuenta .iniciar-sesion-p,
+.iniciar-sesion .crear-cuenta-p,
+.iniciar-sesion .iniciar-sesion-p {
+  font-size: 1.4em;
+}
+.crear-cuenta .crear-cuenta-a,
+.crear-cuenta .iniciar-sesion-a,
+.iniciar-sesion .crear-cuenta-a,
+.iniciar-sesion .iniciar-sesion-a {
+  font-weight: 600;
+}
+.crear-cuenta .crear-cuenta-a:hover,
+.crear-cuenta .iniciar-sesion-a:hover,
+.iniciar-sesion .crear-cuenta-a:hover,
+.iniciar-sesion .iniciar-sesion-a:hover {
+  text-decoration: underline;
+}
+.crear-cuenta .forgot-password,
+.iniciar-sesion .forgot-password {
+  font-size: small;
+  font-weight: bold;
+  margin-right: 50vw;
+}
+.crear-cuenta .forgot-password:hover,
+.iniciar-sesion .forgot-password:hover {
+  text-decoration: underline;
+}
+
 footer {
   background-color: black;
   padding: 20px 40px;

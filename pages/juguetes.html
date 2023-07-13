@@ -4,41 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lasermanas - FIBROFÁCIL Y CORTE LÁSER</title>
+    <title>Lasermanas - Juguetes</title>
+    <meta name="description" content="Tenemos juguetes y juegos didácticos para los más chiquitos. Podemos personalizarlos con sus nombres.">
     <!-- favicon -->
     <link rel="shortcut icon" href="../images/favicon1.png" type="image/x-icon">
+    <!-- link de css BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- link a css -->
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
-    <nav>
-        <div>
-            <a href="../index.html" class="flex-grow10">
-                <img src="../images/logo-lasermanas.png" alt="Logo de Lasermanas">
-            </a>
-            <form action="search.php" class="flex">
-                <input type="search" placeholder="Buscar" class="input">
-                <button class="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search svg2" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                      </svg>
+    <header class="sticky-top">
+        <!-- starts nav -->
+        <nav class="navbar navbar-expand-lg botonera px-4 pt-2 justify-content-center">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-            </form>
-            <a href="./crear-cuenta.html"><p class="p1 crear-cuenta">CREAR CUENTA</p></a>
-            <a href="./iniciar-sesion.html"><p class="p1">INICIAR SESIÓN</p></a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus-fill carrito" viewBox="0 0 16 16">
-                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
-            </svg>
-        </div>
-        <ul>
-            <li><a href="./quienesomos.html">Quiénes Somos</a></li>
-            <li><a href="./tienda.html">Tienda</a></li>
-            <li><a href="./preguntasfrecuentes.html">Preguntas Frecuentes</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-    <!-- ends nav -->
-    <!-- <header></header> ends header -->
+                <a class="navbar-brand col-lg-2" href="../index.html">
+                    <img src="../images/logo-lasermanas.png" alt="Logo de Lasermanas">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-lg-6 ms-lg-5">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./quienesomos.html">Quiénes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-lg-2 item-selected" href="./tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-lg-2" href="./preguntasfrecuentes.html">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-lg-2" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <a class="nav-link col-lg-1.5" href="./crear-cuenta.html"><p class="p1 crear-cuenta">CREAR CUENTA</p></a>
+                    <a class="nav-link p1 col-lg-1.5" href="./iniciar-sesion.html"><p class="p1">INICIAR SESIÓN</p></a>
+                </div>
+                <a class="nav-link col-lg-1 ms-4" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus-fill carrito col-lg-1" viewBox="0 0 16 16">
+                        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+        <form class="d-flex botonera pb-3 justify-content-center pt-3" role="search">
+            <input class="form-control me-2 input" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success btn-nav" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search svg2" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+            </button>
+        </form>
+    </header> 
+    <!-- ends header -->
     <main class="tienda1">
         <h1 class="text left title">Tienda minorista</h1>
         <section class="filters">
@@ -79,7 +99,7 @@
         </section>
         <section class="prod1 prodtienda">
             <figure>
-                <img src="../images/productos-tienda/pista1.jpg" alt="pista">
+                <img src="../images/productos-tienda/pista1.webp" alt="Pista de autos">
                 <figcaption class="prodfigc">PISTA DE AUTOS</figcaption>
                 <p class="prodp">$840</p>
                 <button class="prodbut">+ Agregar al carrito</button>
@@ -87,7 +107,7 @@
         </section>
         <section class="prod2 prodtienda">
             <figure>
-                <img src="../images/productos-tienda/camion1.jpg" alt="camiones">
+                <img src="../images/productos-tienda/camion1.webp" alt="Camiones">
                 <figcaption class="prodfigc">CAMIONES</figcaption>
                 <p class="prodp">$560</p>
                 <button class="prodbut">+ Agregar al carrito</button>
@@ -95,7 +115,7 @@
         </section>
         <section class="prod3 prodtienda">
             <figure>
-                <img src="../images/productos-tienda/avion1.jpg" alt="aviones">
+                <img src="../images/productos-tienda/avion1.webp" alt="Aviones">
                 <figcaption class="prodfigc">AVIONES</figcaption>
                 <p class="prodp">$480</p>
                 <button class="prodbut">+ Agregar al carrito</button>
@@ -159,5 +179,7 @@
         </div>
     </footer>
     <!-- ends footer -->
+    <!-- Script de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

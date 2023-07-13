@@ -32,7 +32,7 @@
     }
     ul{
         padding-left: 0;
-    }
+    }  
 } 
 .tienda{
     @include grid(20% repeat(4,1fr), 80px repeat(4,300px), 5px);

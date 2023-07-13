@@ -1,0 +1,35 @@
+.crear-cuenta,
+.iniciar-sesion{
+    @include flex(column, center);
+    align-items: center;
+    text-align: $textCenter;
+    label{
+        text-align: $textLeft;
+        width: 40vw;
+    }
+    button{
+        @extend .bg-pink;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 16vw;
+    }
+    .crear-cuenta-p,
+    .iniciar-sesion-p{
+        font-size: 1.4em;
+    }
+    .crear-cuenta-a,
+    .iniciar-sesion-a{
+        font-weight: 600;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .forgot-password{
+        font-size: small;
+        font-weight: bold;
+        margin-right: 50vw;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

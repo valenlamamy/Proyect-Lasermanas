@@ -21,15 +21,12 @@ nav{
             color: $black;
             font-weight: $textLight;
             font-size: $textLg;
-            &:hover{
-                color: $mainColor;
             }
-        }
     }
     a p:hover{
-        text-decoration: underline;
+            text-decoration: underline;
     }
-}  
+} 
 .input{
     font-size: $textMd;
     font-weight: $textLight;

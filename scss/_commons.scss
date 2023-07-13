@@ -48,7 +48,11 @@ h2{
 button:hover{
     cursor: pointer;
 }
-// selectores de clase
+ul li .item-selected{
+    border-top: 1px solid $mainColor;
+    border-bottom: 1px solid $mainColor;
+    color: $mainColor;
+}
 .fs18{
     font-size: $textXL;
 }
