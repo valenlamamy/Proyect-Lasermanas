@@ -1,8 +1,5 @@
 .pregs{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 20% repeat(2,150px) 100px;
-    gap: 20px;
+    @include grid (repeat(3,1fr), 20% repeat(2,150px) 100px, 20px);
     margin-bottom: 20px;
     .title{
         grid-column: 1/4;

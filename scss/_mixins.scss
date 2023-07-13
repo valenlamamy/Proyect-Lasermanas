@@ -3,9 +3,16 @@
     flex-direction: $dire;
     justify-content: $justify;
 }
-@mixin grid($column, $row,$gap){
+// .about{
+//     @include flex(column, center);
+// }
+
+@mixin grid($column, $row, $gap){
     display: grid;
     grid-template-columns: $column;
     grid-template-rows: $row;
     gap: $gap;
 }
+// .tienda{
+//     @include grid(20% repeat(4,1fr), 80px repeat(4,300px), 5px);
+// }

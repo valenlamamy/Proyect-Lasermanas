@@ -1,6 +1,5 @@
 .contacto{
-    display: flex;
-    justify-content: space-between;
+    @include flex(row, space-between);
     align-items: flex-start;
     div a{
         font-weight: $textLight;
@@ -31,5 +30,8 @@
     }
     ul{
         padding-left: 0;
+    }
+    svg{
+        @extend .svg1;
     }
 }
