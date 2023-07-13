@@ -1,5 +1,4 @@
-.crear-cuenta,
-.iniciar-sesion{
+.login{
     @include flex(column, center);
     align-items: center;
     text-align: $textCenter;
