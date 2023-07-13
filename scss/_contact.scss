@@ -8,7 +8,7 @@
         line-height: 2.4rem;
     }
     .div1{
-        text-align: center;
+        text-align: $textCenter;
     }
     .input{
         border: none;
@@ -16,7 +16,7 @@
         font-weight: $textRegular;
         background-color: $mainColor;
         color: $white;
-        text-align: center;
+        text-align: $textCenter;
         width: 40%;
         margin-top: 10px;
     }
@@ -26,7 +26,7 @@
         margin-bottom: 20px;
     }
     label{
-        text-align: left;
+        text-align: $textLeft;
         font-size: $textLg;
     }
     ul{

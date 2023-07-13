@@ -119,7 +119,7 @@
 }
 // diseño de cada producto
 .prodtienda{
-    text-align: center;
+    text-align: $textCenter;
     display: flex;
     flex-direction: column;
     align-items: center;

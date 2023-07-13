@@ -170,8 +170,8 @@
     }
     .tienda .filters select{
         width: 100%;
-        background-color: rgb(223, 27, 76);
-        color: rgba(255, 255, 255, 0.952);
+        background-color: $mainColor;
+        color: $white;
         padding-left: 10px;
         border-radius: 5px;
     }
@@ -230,7 +230,7 @@
         }
     }
     .text-responsive{
-        text-align: center;
+        text-align: $textCenter;
     }
     /* ends contacto */
 }
