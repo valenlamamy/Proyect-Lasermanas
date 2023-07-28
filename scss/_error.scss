@@ -1,0 +1,17 @@
+.main-error{
+    background-image: url(../images/error-404.webp);
+    text-align: $textCenter;
+    button{
+        margin-top: 50vh;
+        border: none;
+        padding: 10px;
+        font-size: $textXL;
+        background-color: $keyColor;
+        &:hover{
+            background-color: rgb(51, 50, 50);
+        }
+        a{
+            color: $white;
+        }
+    }
+}

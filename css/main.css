@@ -661,6 +661,24 @@ nav a p:hover {
   text-decoration: underline;
 }
 
+.main-error {
+  background-image: url(../images/error-404.webp);
+  text-align: center;
+}
+.main-error button {
+  margin-top: 50vh;
+  border: none;
+  padding: 10px;
+  font-size: 1.8rem;
+  background-color: rgba(15, 15, 15, 0.884);
+}
+.main-error button:hover {
+  background-color: rgb(51, 50, 50);
+}
+.main-error button a {
+  color: rgba(255, 255, 255, 0.952);
+}
+
 footer {
   background-color: black;
   padding: 20px 40px;
