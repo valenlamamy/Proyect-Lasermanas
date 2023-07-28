@@ -1,8 +1,18 @@
 .main-error{
     background-image: url(../images/error-404.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
     text-align: $textCenter;
+    h1{
+        text-align: left;
+        margin-left: 30px;
+        font-size: 6rem;
+        color: $white;
+        padding-top: 30px;
+    }
     button{
-        margin-top: 50vh;
+        margin-top: 28vh;
+        margin-bottom: 40px;
         border: none;
         padding: 10px;
         font-size: $textXL;
