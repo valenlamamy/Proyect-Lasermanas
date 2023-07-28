@@ -1,6 +1,9 @@
 .contacto{
     @include flex(row, space-between);
     align-items: flex-start;
+    .div-contact{
+        padding-right: 50px;
+    }
     div a{
         font-weight: $textLight;
         font-size: $textLg;
